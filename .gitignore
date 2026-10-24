@@ -1,0 +1,34 @@
+# --- Competition data: Kaggle rule B(4)(b), never publish ---
+verifiers/
+kickmix/
+kickmix.so
+*.so
+sample_submission/
+dfthcsos_starter_kit/
+data/
+input/
+verifiable_circuit_compilation.pdf
+
+# Circuits and factorizations are ignored by default...
+*.kmb
+*.kmx
+*.npz
+submission*.zip
+# ...except your own, committed on purpose from circuits/
+!circuits/
+!circuits/**
+
+# --- Never commit these ---
+.env
+*.key
+secrets/
+contruil/
+cyw/
+virgil/
+
+# --- Python / notebooks ---
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+.DS_Store
